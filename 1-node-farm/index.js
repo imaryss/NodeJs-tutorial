@@ -66,7 +66,7 @@
                 const productData = JSON.parse(data);
                 res.writeHead(200,{'Content-type': 'application/json'});
                 res.end(data);
-                console.log(productData);
+                
                 }); 
             }else {
             res.writeHead(404, {
